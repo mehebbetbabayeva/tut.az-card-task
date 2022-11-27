@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    width: 220px;
+    height: auto;
+    margin: 70px auto;
+    position: relative;
+}
+.card a figure img{
+    width: 100%;
+}
+.card a figcaption{
+    background-color: #fff;
+    width: 100%;
+    height:100px;
+    border: 1px solid black;
+    position: absolute;
+    
+}
+.card a figcaption .amount{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    background-color: #a33b66;
+    color: #fff;
+    border-radius: 0 0 5px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.card a figcaption p{
+    font-size: 18px;
+    line-height: 19px;
+    color: #2d424a;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.card a figcaption .date{
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    bottom:10px ;
+    left:10px ;
+}
+.card a figcaption .icon{
+    font-size: 20px;
+}
+.card a figcaption .icon-heart{
+    color:gray;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.card a figcaption .icon-crown{
+    color:yellow;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.card a figcaption .icon-diamond{
+    color:#800080;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
